@@ -362,3 +362,11 @@ part of that action in program.
 Example :- To ignore errors in loop, Filtering the data dynamically, Optimizing the nested loops.
 */
 //NOTE: continue statement skips the specific part of the flow instead of breaking whole flow like break statement.
+
+/*PRACTICAL - 15 :- Use ternary in program in order to check simple conditions as alternative of if-else statement.*/
+//Use ternary operator to check largest number among two numbers.
+const prompt = require('prompt-sync')();
+let a = parseInt(prompt("Enter a number :- "));
+let b = parseInt(prompt("Enter a number :- "));
+let max = a>b ? a : b;
+console.log("Maximum number is :- ",+max);
